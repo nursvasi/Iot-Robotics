@@ -4,9 +4,6 @@
  *
  * @category   Ajax executed php script
  * @package    None
- * @author     Volkan
- * @copyright  2018 Volkan
- * @version    CVS: $Id:1.0
  * @deprecated None
  */
 
