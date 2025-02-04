@@ -23,7 +23,7 @@ void setup() {
     delay(1000);
   }
 
-  wifiMulti.addAP("AtomicMobile", "vlk953f.");
+  wifiMulti.addAP("nursv", "nurv00.");
 }
 
 void loop() {
@@ -34,19 +34,19 @@ void loop() {
     rnd = random(1, 4);
     switch (rnd) {
       case 1:
-        webaddress = "https://vyamacli.com/classroom/IoT2023/status_1.php";
+        webaddress = "https://";
         Serial.println("Random Sayı: " + String(rnd));
         Serial.println("Adres: " + webaddress);
         break;
 
       case 2:
-        webaddress = "https://vyamacli.com/classroom/IoT2023/status_2.php";
+        webaddress = "https://";
         Serial.println("Random Sayı: " + String(rnd));
         Serial.println("Adres: " + webaddress);
         break;
 
       case 3:
-        webaddress = "https://vyamacli.com/classroom/IoT2023/status_3.php";
+        webaddress = "https://";
         Serial.println("Random Sayı: " + String(rnd));
         Serial.println("Adres: " + webaddress);
         break;
